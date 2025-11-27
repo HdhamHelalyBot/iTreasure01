@@ -1,4 +1,3 @@
-
 import type { Translations, Category, Product } from './types';
 import { ChipIcon, CableIcon, CpuChipIcon, CubeTransparentIcon, CogIcon, WrenchScrewdriverIcon, CodeBracketIcon, BoltIcon, LightBulbIcon, CircleStackIcon } from './components/icons/CategoryIcons';
 
@@ -103,3 +102,80 @@ export const PRODUCTS: Product[] = [
         category: 'Software & Development'
     }
 ];
+
+export const LEGAL_CONTENT = {
+  terms: {
+    en: {
+      title: 'Terms & Conditions',
+      content: `
+        <p>Welcome to iTreasure. These terms and conditions outline the rules and regulations for the use of iTreasure's Website.</p>
+        <p>By accessing this website we assume you accept these terms and conditions. Do not continue to use iTreasure if you do not agree to take all of the terms and conditions stated on this page.</p>
+        <h3>Cookies</h3>
+        <p>We employ the use of cookies. By accessing iTreasure, you agreed to use cookies in agreement with the iTreasure's Privacy Policy.</p>
+        <h3>License</h3>
+        <p>Unless otherwise stated, iTreasure and/or its licensors own the intellectual property rights for all material on iTreasure. All intellectual property rights are reserved. You may access this from iTreasure for your own personal use subjected to restrictions set in these terms and conditions.</p>
+        <p>You must not:</p>
+        <ul>
+          <li>Republish material from iTreasure</li>
+          <li>Sell, rent or sub-license material from iTreasure</li>
+          <li>Reproduce, duplicate or copy material from iTreasure</li>
+          <li>Redistribute content from iTreasure</li>
+        </ul>
+      `,
+    },
+    ar: {
+      title: 'الشروط والأحكام',
+      content: `
+        <p>مرحبًا بكم في آي تريجر. تحدد هذه الشروط والأحكام القواعد واللوائح الخاصة باستخدام موقع آي تريجر.</p>
+        <p>من خلال الوصول إلى هذا الموقع، نفترض أنك تقبل هذه الشروط والأحكام. لا تواصل استخدام آي تريجر إذا كنت لا توافق على جميع الشروط والأحكام المذكورة في هذه الصفحة.</p>
+        <h3>ملفات تعريف الارتباط</h3>
+        <p>نحن نستخدم ملفات تعريف الارتباط. من خلال الوصول إلى آي تريجر، فإنك توافق على استخدام ملفات تعريف الارتباط بالاتفاق مع سياسة الخصوصية الخاصة بـ آي تريجر.</p>
+        <h3>الترخيص</h3>
+        <p>ما لم يُنص على خلاف ذلك، تمتلك آي تريجر و / أو مرخصوها حقوق الملكية الفكرية لجميع المواد الموجودة على آي تريجر. جميع حقوق الملكية الفكرية محفوظة. يمكنك الوصول إلى هذا من آي تريجر لاستخدامك الشخصي مع مراعاة القيود المنصوص عليها في هذه الشروط والأحكام.</p>
+        <p>يجب عليك عدم:</p>
+        <ul>
+          <li>إعادة نشر المواد من آي تريجر</li>
+          <li>بيع أو تأجير أو ترخيص المواد من آي تريجر</li>
+          <li>إعادة إنتاج أو نسخ أو تكرار المواد من آي تريجر</li>
+          <li>إعادة توزيع المحتوى من آي تريجر</li>
+        </ul>
+      `,
+    },
+  },
+  privacy: {
+    en: {
+      title: 'Privacy Policy',
+      content: `
+        <p>Your privacy is important to us. It is iTreasure's policy to respect your privacy regarding any information we may collect from you across our website.</p>
+        <p>We only ask for personal information when we truly need it to provide a service to you. We collect it by fair and lawful means, with your knowledge and consent. We also let you know why we’re collecting it and how it will be used.</p>
+        <h3>Information We Collect</h3>
+        <p>The personal information that you are asked to provide, and the reasons why you are asked to provide it, will be made clear to you at the point we ask you to provide your personal information.</p>
+        <h3>How We Use Your Information</h3>
+        <p>We use the information we collect in various ways, including to:</p>
+        <ul>
+          <li>Provide, operate, and maintain our website</li>
+          <li>Improve, personalize, and expand our website</li>
+          <li>Understand and analyze how you use our website</li>
+          <li>Develop new products, services, features, and functionality</li>
+        </ul>
+      `,
+    },
+    ar: {
+      title: 'سياسة الخصوصية',
+      content: `
+        <p>خصوصيتك تهمنا. إن سياسة آي تريجر هي احترام خصوصيتك فيما يتعلق بأي معلومات قد نجمعها منك عبر موقعنا.</p>
+        <p>نحن نطلب فقط المعلومات الشخصية عندما نحتاجها حقًا لتقديم خدمة لك. نقوم بجمعها بوسائل عادلة وقانونية، بمعرفتك وموافقتك. كما نعلمك لماذا نجمعها وكيف سيتم استخدامها.</p>
+        <h3>المعلومات التي نجمعها</h3>
+        <p>سيتم توضيح المعلومات الشخصية التي يُطلب منك تقديمها، والأسباب التي يُطلب منك تقديمها من أجلها، لك في الوقت الذي نطلب منك فيه تقديم معلوماتك الشخصية.</p>
+        <h3>كيف نستخدم معلوماتك</h3>
+        <p>نحن نستخدم المعلومات التي نجمعها بطرق مختلفة، بما في ذلك:</p>
+        <ul>
+          <li>توفير وتشغيل وصيانة موقعنا</li>
+          <li>تحسين وتخصيص وتوسيع موقعنا</li>
+          <li>فهم وتحليل كيفية استخدامك لموقعنا</li>
+          <li>تطوير منتجات وخدمات وميزات ووظائف جديدة</li>
+        </ul>
+      `,
+    },
+  },
+};

@@ -1,9 +1,12 @@
-
 import React from 'react';
 import { useLanguage } from '../hooks/useLanguage';
 import { ChipIcon } from './icons/CategoryIcons';
 
-const Footer: React.FC = () => {
+interface FooterProps {
+  onLegalLinkClick: (key: 'terms' | 'privacy') => void;
+}
+
+const Footer: React.FC<FooterProps> = ({ onLegalLinkClick }) => {
   const { t } = useLanguage();
 
   return (
@@ -21,8 +24,8 @@ const Footer: React.FC = () => {
           </div>
           <div className="md:col-span-2 flex flex-col md:flex-row justify-between items-center text-sm">
             <div className="flex space-x-6 rtl:space-x-reverse mb-4 md:mb-0">
-              <a href="#" className="text-gray-600 dark:text-gray-400 hover:text-brand-red-700 transition-colors">{t('footer.terms')}</a>
-              <a href="#" className="text-gray-600 dark:text-gray-400 hover:text-brand-red-700 transition-colors">{t('footer.privacy')}</a>
+              <button onClick={() => onLegalLinkClick('terms')} className="text-gray-600 dark:text-gray-400 hover:text-brand-red-700 transition-colors">{t('footer.terms')}</button>
+              <button onClick={() => onLegalLinkClick('privacy')} className="text-gray-600 dark:text-gray-400 hover:text-brand-red-700 transition-colors">{t('footer.privacy')}</button>
             </div>
             <p className="text-gray-500 dark:text-gray-400">
               &copy; {new Date().getFullYear()} iTreasure. {t('footer.rights')}
