@@ -61,45 +61,45 @@ export const CATEGORIES: Category[] = [
 export const PRODUCTS: Product[] = [
     {
         id: 1,
-        name: { en: 'High-Performance CPU', ar: 'معالج عالي الأداء' },
-        description: { en: 'Latest generation processor for demanding applications and gaming.', ar: 'معالج من الجيل الأحدث للتطبيقات والألعاب المتطلبة.' },
-        imageUrl: 'https://picsum.photos/seed/cpu/400/300',
-        category: 'Semiconductors'
+        name: { en: 'Integrated Development Environment', ar: 'بيئة تطوير متكاملة' },
+        description: { en: 'A feature-rich IDE for modern web and cloud development.', ar: 'بيئة تطوير غنية بالميزات لتطوير الويب والسحابة الحديثة.' },
+        imageUrl: 'https://picsum.photos/seed/code/400/300',
+        category: 'Software & Development'
     },
     {
         id: 2,
-        name: { en: 'Braided HDMI Cable', ar: 'كابل HDMI مجدول' },
-        description: { en: '4K ready, high-speed HDMI cable with gold-plated connectors.', ar: 'كابل HDMI عالي السرعة جاهز لدقة 4K مع موصلات مطلية بالذهب.' },
-        imageUrl: 'https://picsum.photos/seed/cable/400/300',
-        category: 'Connectors & Cables'
+        name: { en: 'Cloud Database Solution', ar: 'حل قاعدة بيانات سحابية' },
+        description: { en: 'Scalable and secure cloud database for high-performance applications.', ar: 'قاعدة بيانات سحابية آمنة وقابلة للتطوير للتطبيقات عالية الأداء.' },
+        imageUrl: 'https://picsum.photos/seed/database/400/300',
+        category: 'Engineering Software'
     },
     {
         id: 3,
-        name: { en: 'Industrial Automation PLC', ar: 'وحدة تحكم منطقية قابلة للبرمجة صناعية' },
-        description: { en: 'Robust PLC for controlling machinery and industrial processes.', ar: 'وحدة تحكم قوية للتحكم في الآلات والعمليات الصناعية.' },
-        imageUrl: 'https://picsum.photos/seed/plc/400/300',
-        category: 'Automation & Control'
+        name: { en: 'API Management Platform', ar: 'منصة إدارة واجهات برمجة التطبيقات' },
+        description: { en: 'Design, secure, deploy, and monitor APIs across clouds.', ar: 'صمم، وأمّن، وانشر، وراقب واجهات برمجة التطبيقات عبر السحابات.' },
+        imageUrl: 'https://picsum.photos/seed/api/400/300',
+        category: 'Software & Development'
     },
     {
         id: 4,
-        name: { en: 'Precision Tool Kit', ar: 'مجموعة أدوات دقيقة' },
-        description: { en: '72-piece tool kit for computer and electronics repair.', ar: 'مجموعة أدوات مكونة من 72 قطعة لإصلاح أجهزة الكمبيوتر والإلكترونيات.' },
-        imageUrl: 'https://picsum.photos/seed/tools/400/300',
-        category: 'Computer Tools'
+        name: { en: 'DevOps Automation Tool', ar: 'أداة أتمتة DevOps' },
+        description: { en: 'Automate your CI/CD pipeline for faster and more reliable software delivery.', ar: 'أتمتة خط أنابيب CI/CD الخاص بك لتسليم برامج أسرع وأكثر موثوقية.' },
+        imageUrl: 'https://picsum.photos/seed/devops/400/300',
+        category: 'Automation & Control'
     },
     {
         id: 5,
-        name: { en: 'Variable Power Supply', ar: 'مزود طاقة متغير' },
-        description: { en: '0-30V, 0-5A benchtop power supply for testing and development.', ar: 'مزود طاقة مكتبي بجهد 0-30 فولت وتيار 0-5 أمبير للاختبار والتطوير.' },
-        imageUrl: 'https://picsum.photos/seed/power/400/300',
-        category: 'Power & Circuit Protection'
+        name: { en: 'Cybersecurity Suite', ar: 'مجموعة الأمن السيبراني' },
+        description: { en: 'Protect your applications with our comprehensive security software.', ar: 'احمِ تطبيقاتك من خلال برنامج الأمان الشامل الخاص بنا.' },
+        imageUrl: 'https://picsum.photos/seed/cybersecurity/400/300',
+        category: 'Software & Development'
     },
     {
         id: 6,
-        name: { en: 'IoT Development Board', ar: 'لوحة تطوير إنترنت الأشياء' },
-        description: { en: 'WiFi and Bluetooth enabled board for building connected devices.', ar: 'لوحة تدعم الواي فاي والبلوتوث لبناء الأجهزة المتصلة.' },
-        imageUrl: 'https://picsum.photos/seed/iot/400/300',
-        category: 'Software & Development'
+        name: { en: 'Machine Learning Framework', ar: 'إطار عمل تعلم الآلة' },
+        description: { en: 'An end-to-end open source platform for machine learning.', ar: 'منصة مفتوحة المصدر متكاملة لتعلم الآلة.' },
+        imageUrl: 'https://picsum.photos/seed/ai/400/300',
+        category: 'Engineering Software'
     }
 ];
 
